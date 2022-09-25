@@ -38,8 +38,7 @@ class Robo:
         self.driver.get('https://getlike.io/login/')
         sleep(2)
         # login
-        # self.driver.find_element_by_xpath('//*[@id="User_loginLogin"]').send_keys('navaiy44@gmail.com')
-        # self.driver.find_element_by_xpath('//*[@id="User_passwordLogin"]').send_keys('navaiy123456')
+       
         sdf = input('Enter to login to Getlike :')
         sleep(2)
         self.driver.find_element_by_xpath('//*[@id="formLogin"]/input').click()  # btn_login
